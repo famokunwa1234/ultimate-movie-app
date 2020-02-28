@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ultimate-movie-app/static/css/main.e2a4565b.chunk.css",
-    "main.js": "/ultimate-movie-app/static/js/main.24291d7e.chunk.js",
-    "main.js.map": "/ultimate-movie-app/static/js/main.24291d7e.chunk.js.map",
+    "main.js": "/ultimate-movie-app/static/js/main.0cc475c3.chunk.js",
+    "main.js.map": "/ultimate-movie-app/static/js/main.0cc475c3.chunk.js.map",
     "runtime-main.js": "/ultimate-movie-app/static/js/runtime-main.f5352984.js",
     "runtime-main.js.map": "/ultimate-movie-app/static/js/runtime-main.f5352984.js.map",
     "static/js/2.cd524cc9.chunk.js": "/ultimate-movie-app/static/js/2.cd524cc9.chunk.js",
     "static/js/2.cd524cc9.chunk.js.map": "/ultimate-movie-app/static/js/2.cd524cc9.chunk.js.map",
     "index.html": "/ultimate-movie-app/index.html",
-    "precache-manifest.af0ad646b9d4af9c44fce8d5f30119a9.js": "/ultimate-movie-app/precache-manifest.af0ad646b9d4af9c44fce8d5f30119a9.js",
+    "precache-manifest.3aab42f254e25d13c24b6a6adf232d0f.js": "/ultimate-movie-app/precache-manifest.3aab42f254e25d13c24b6a6adf232d0f.js",
     "service-worker.js": "/ultimate-movie-app/service-worker.js",
     "static/css/main.e2a4565b.chunk.css.map": "/ultimate-movie-app/static/css/main.e2a4565b.chunk.css.map",
     "static/js/2.cd524cc9.chunk.js.LICENSE.txt": "/ultimate-movie-app/static/js/2.cd524cc9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f5352984.js",
     "static/js/2.cd524cc9.chunk.js",
     "static/css/main.e2a4565b.chunk.css",
-    "static/js/main.24291d7e.chunk.js"
+    "static/js/main.0cc475c3.chunk.js"
   ]
 }
