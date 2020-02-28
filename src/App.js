@@ -20,14 +20,13 @@ class App extends Component {
       <div>
    <Navbar />
    <Route exact path="/" component={Landing} />
-   <Route exact path="/movies/:id" component={Movie} />
-  <Landing />
+   <Route exact path="/movie/:id" component={Movie} />
    <Footer />
    </div>
    </Router>
    </Provider>
 
-  );
+  );  
 }
 }
 

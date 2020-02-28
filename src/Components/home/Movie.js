@@ -1,8 +1,9 @@
+
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-import { fetchMovie, setLoading  } from '../../actions/searchActions';
+import { fetchMovie, setLoading } from '../../actions/searchActions';
 
 import Spinner from '../layout/Spinner';
 
@@ -11,7 +12,7 @@ export class Movie extends Component {
     this.props.fetchMovie(this.props.match.params.id);
     this.props.setLoading();
   }
-  render() {  
+  render() {
     const { loading, movie } = this.props;
 
     let movieInfo = (
@@ -37,7 +38,7 @@ export class Movie extends Component {
               </li>
               <li className="list-group-item">
                 <strong>Director:</strong> {movie.Director}
-              </li>     
+              </li>
               <li className="list-group-item">
                 <strong>Writer:</strong> {movie.Writer}
               </li>
@@ -82,5 +83,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { fetchMovie,setLoading }
-)(Movie);
+  { fetchMovie, setLoading }
+)(Movie);  
